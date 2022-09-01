@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="reset.css">
+    <meta name=""viewport" content=""width=device-width">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Decodificador</title>
+</head>
+
+<body>
+<header class=".caixa">
+    <img class="logo" src="logo-branco.png" alt="Logo Curiosidades Dev">
+</header>
+
+<main>
+    <section>
+        <textarea class="input" placeholder="Digite seu texto:"></textarea>
+        <div>
+           <button class="encriptar" onclick="btnEncriptar()">Criptografar</button>
+                   
+           <button class="desencriptar" onclick="btnDesencriptar()">Descriptografar</button>
+        </div>
+
+        <h6>Observações: Digite apenas letras minúsculas e sem acento.</h6>
+    </section>
+    <section>
+        <textarea  class="mensagem"></textarea>
+        <button class="copiar" onclick="copiar()">Copiar</button>
+    </section>
+
+</main>
+
+    <footer>    
+		<p class="copyright">&copy; Copyright Bruna Klemes</p>
+    </footer>
+
+</body>
+<script src="script.js"></script>
+
+</html>
